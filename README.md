@@ -1,5 +1,13 @@
 # DSH 生图 API（Image Generation）
 
+> **本插件已收录到同系列 monorepo：** https://github.com/lizekun793-beep/dsh-plugins/tree/main/dsh-image-gen  
+> 推荐安装：
+> ```bash
+> dsh plugin --profile web add "github:lizekun793-beep/dsh-plugins#main&path:/dsh-image-gen" --registry=https://registry.npmmirror.com
+> ```
+> 本独立仓库仍作镜像保留。
+
+
 给 DeepSeek Harness 增加一个 `generate_image` 工具：通过任意 **OpenAI 兼容** 的图片生成接口，用文字提示词出图，并把图片保存到当前会话工作区的 `generated-images/` 目录。接口地址、模型和 API Key 都在 **插件** 页里配置。
 
 > **同系列 DSH 插件 / Same series** by [lizekun793-beep](https://github.com/lizekun793-beep)：
